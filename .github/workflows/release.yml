@@ -19,32 +19,32 @@ jobs:
         include:
         - build: linux-latest
           os: ubuntu-24.04
-          qt: 6.11.1
+          qt: 6.12.0
           arch: linux_gcc_64
           qt-modules: 'qtwebsockets'
           installer-name: anylink-client-linux-amd64.run
         - build: linux
           os: ubuntu-22.04
-          qt: 6.11.1
+          qt: 6.12.0
           arch: linux_gcc_64
           qt-modules: 'qtwebsockets'
           installer-name: anylink-client-linux-amd64.run
         - build: linux-arm64
           os: ubuntu-24.04-arm
-          qt: 6.11.1
+          qt: 6.12.0
           arch: linux_gcc_arm64
           qt-modules: 'qtwebsockets'
           installer-name: anylink-client-linux-arm64.run
         - build: windows
           os: windows-2022
-          qt: 6.11.1
+          qt: 6.12.0
           arch: win64_msvc2022_64
           qt-modules: 'qtwebsockets'
           qt-tools: 'tools_qtcreator_gui'
           installer-name: anylink-client-windows10-amd64.exe
         - build: macos-arm64
           os: macos-14
-          qt: 6.11.1
+          qt: 6.12.0
           arch: clang_64
           qt-modules: 'qtwebsockets'
           installer-name: anylink-client-installer
