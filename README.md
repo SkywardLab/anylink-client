@@ -47,6 +47,10 @@ Double-click the `.run` file to install the software. The `.run` package is supp
 
 Enter the installation directory and execute the uninstall program.
 
+## Sponsors
+
+Free code signing on Windows provided by [SignPath.io](https://signpath.io/), certificate by [SignPath Foundation](https://signpath.org/)
+
 ## Help
 
 | You may want to join in the QQ Group(66899589) to get some help. |
